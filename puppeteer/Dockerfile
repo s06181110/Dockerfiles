@@ -9,3 +9,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN yarn add puppeteer
+RUN yarn add cordova
